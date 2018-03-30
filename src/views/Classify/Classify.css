@@ -1,0 +1,34 @@
+#catagory{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.left-side{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.left-side li{
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.right-side{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.catagory-active{
+    background: #FFF!important;
+    color: #333!important;
+    border-left:2px solid red;
+}

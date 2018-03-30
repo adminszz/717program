@@ -1,0 +1,40 @@
+.goods-item{ 
+    float: left;
+    width: 50%;
+    line-height: .8rem;
+    dt{
+        height: 3.2rem;
+    }
+    dd{
+        margin:0 .1rem;
+        line-height: .46rem;
+    }
+    overflow: hidden;
+    p{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color:#666;
+    }
+    .cart{
+        float: right;
+        padding-right:.1rem;
+        color:#666;
+        font-size: .3rem;
+    }
+    .goods-price{
+        color:#fc4141;
+    }
+    img{
+        width: 100%;
+    }
+    box-sizing:border-box;
+    &:nth-of-type(2n+1){
+        border-right:.04rem solid #eee;
+    }
+    border-bottom: .04rem solid #eee;
+    .img1{
+        width:100%;
+        height:3.2rem;
+    }
+}

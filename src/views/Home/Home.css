@@ -1,0 +1,76 @@
+ .home_cont{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    display: flex;
+    flex-direction: column;
+} 
+.head{
+    width:100%;
+    height:.9rem;
+    display: flex;
+    line-height: .9rem;
+}
+.head span:nth-child(1),.head span:nth-child(3){
+    flex:2;
+    text-align: center;
+    color:#FD6565;
+    font-size: .2rem;
+}
+.head span:nth-child(2){
+    flex:6;
+    position:relative;
+    color:#757575;
+    
+}
+.head span:nth-child(2) i{
+    position: absolute;
+    left:.07rem;
+    top:.02rem;
+    font-size: .32rem;
+}
+.head span:nth-child(2) input{
+    width:87%;
+    height:.5rem;
+    margin-top:.2rem;
+    border:none;
+    border-radius: .08rem;
+    padding-left:.4rem;
+    background: #F5F5F5;
+    font-size:.225rem;
+}
+.head span:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    margin-top:.15rem;
+    line-height: .3rem;
+}
+.head span:nth-child(3) i{
+    font-size:.32rem;
+}
+.head span:nth-child(3) b{
+    font-size:.22rem;
+    font-weight:normal;
+}
+.content{
+    flex:1;
+    overflow-y:scroll;
+}
+.section{
+    width:100%;
+    height: auto;
+}
+.section dl{
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-bottom:.15rem;
+}
+.section dl img{
+    width: .8rem;
+    margin:0.2rem auto;
+}
+.section dl dd{
+    font-size:.22rem;
+    line-height: .4rem;
+}

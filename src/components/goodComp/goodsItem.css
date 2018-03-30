@@ -1,0 +1,13 @@
+.goods{
+    float: left;
+    width: 50%;
+    line-height: 60px;
+}
+.goods img{
+    width: 100%;
+}
+.shop{
+    float: right;
+    padding:0 3px;
+    color: red; 
+}

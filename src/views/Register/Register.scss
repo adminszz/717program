@@ -1,0 +1,30 @@
+.Register{
+    margin-top:.5rem;
+    h1{
+        font-size:.28rem;
+        text-align: center;
+        line-height: .3rem;
+    }
+    p{
+        margin:.6rem 0;
+    }
+    input{
+        display: block;
+        width:70%;
+        height:.5rem;
+        margin: 0 auto;
+        padding: 0 .2rem;
+        font-size: .22rem;
+    }
+    button{
+        display: block;
+        width:78%;
+        height:.55rem;        
+        background: #fc4141;
+        outline: none;
+        color:#fff;
+        border:none;
+        margin:0 auto;
+        font-size: .22rem;        
+    }
+}

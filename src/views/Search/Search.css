@@ -1,0 +1,16 @@
+#search header{
+    padding: 10px;
+}
+#search li{
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.serBtn{
+    width: 60px;
+    height: 30px;
+    float: right;
+    font-size: 14px;
+
+}
